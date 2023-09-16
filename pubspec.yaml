@@ -4,7 +4,7 @@ version: 0.0.6
 homepage: https://github.com/JideGuru/rich_editor
 
 environment:
-  sdk: '>=2.19.6 <4.0.0'
+  sdk: ">=2.19.6 <4.0.0"
   flutter: ">=2.11.0"
 
 dependencies:
@@ -12,11 +12,11 @@ dependencies:
     sdk: flutter
   flutter_inappwebview: ^5.7.2+3
   mime: ^1.0.4
-  image_picker: ^0.8.9
-  flutter_widget_from_html_core: ^0.10.1
+  image_picker: ^1.0.4
+  flutter_widget_from_html_core: ^0.10.5
   flutter_colorpicker: ^1.0.3
-  path: ^1.8.2
-  xml2json: ^5.3.6
+  path: ^1.8.3
+  xml2json: ^6.2.0
 
 dev_dependencies:
   flutter_test:
