@@ -1,21 +1,12 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:rich_editor/src/utils/javascript_executor_base.dart';
 import 'package:rich_editor/src/widgets/tab_button.dart';
 import 'color_picker_dialog.dart';
 
 class EditorToolBar extends StatelessWidget {
-  final Function(File image)? getImageUrl;
-  final Function(File video)? getVideoUrl;
   final JavascriptExecutorBase javascriptExecutor;
-  final bool? enableVideo;
 
-  EditorToolBar({
-    this.getImageUrl,
-    this.getVideoUrl,
-    required this.javascriptExecutor,
-    this.enableVideo,
-  });
+  EditorToolBar({required this.javascriptExecutor});
 
   @override
   Widget build(BuildContext context) {
