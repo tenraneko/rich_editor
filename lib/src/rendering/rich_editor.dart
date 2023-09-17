@@ -92,6 +92,7 @@ class RichEditorState extends State<RichEditor> {
         Expanded(
           child: InAppWebView(
             key: _mapKey,
+            contextMenu: ContextMenu(),
             onWebViewCreated: (controller) async {
               _controller = controller;
               setState(() {});
